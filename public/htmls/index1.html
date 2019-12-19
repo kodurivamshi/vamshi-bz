@@ -1,0 +1,36 @@
+<html>
+<head><title>LOGIN PAGE</title></head>
+<body style="background-image: url(img/images.jpg)">
+        <legend>DETAILS</legend>
+    <div class="container" style=" padding:20px;margin:auto;background-image: url(img/g.jpg);width:300;height:200;border:solid 2px black;text-align: center;margin-top: 150px;border-radius:20px">
+        
+        <div class="row">
+            <label for="name" style="padding: 5px;"><b>NAME:</b></label>
+            <input type="text" placeholder="enter name"  id="name" onfocus="func()">
+        </div>  
+        <div class="row" style="padding: 20px;">
+            <label for="name" style="padding: 5px;"><b>ROLL:</b></label>
+            <input type="text" name="ID" placeholder="enter JNTU ROLL NUMBER" >
+        </div>
+        <div class="row" style="padding: 20px;padding-top: 0px;">
+            <label for="name" style="padding: 5px;"><b>MAIL ID:</b></label>
+            <input type="text" placeholder="enter MAIL ID"  name="MAIL">
+        </div> 
+        <div class="row">
+            <button style="width: 55px;height: 40px;border-radius: 10px;text-align: centerpadding:5px" onmouseover="over()"  onmouseout="out()" onclick="method()">submit</button>
+        </div>     
+    </div>
+    <script>
+        function over(){
+            document.getElementsByTagName("button")[0].style.backgroundColor="white";
+            document.getElementsByTagName("button")[0].style.color="black";
+        }
+        function out(){
+            document.getElementsByTagName("button")[0].style.backgroundColor="black";
+            document.getElementsByTagName("button")[0].style.color="white";
+        }
+    
+        
+    </script>
+</body>
+</html>
