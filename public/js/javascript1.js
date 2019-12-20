@@ -10,5 +10,9 @@ $(document).ready(function(){
 		$("#college").text(d.college);
 		$("#regno").text(d.regno);
 	})
+    $("#name").css({"background-color":"black","color":"white"})
+        $("#regno").css({"color":"skyblue","background-color":"black","color":"white"})
+        $("#college").css({"font-weight":"bolder","font-style":"italic"})
+        $("#divi").css({"background-image" :"url(img/g.jpg)"})
     })
 })

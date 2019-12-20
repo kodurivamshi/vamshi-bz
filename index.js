@@ -10,9 +10,9 @@ app.get("/index2", (req, res) => res.sendFile(__dirname+'/public/htmls/index2.ht
 app.get("/index", (req, res) => res.sendFile(__dirname+'/public/htmls/index.html'))
 
 var obj={}
-obj.name = "Being Zero";
-obj.college = "CMRCET";
-obj.regno = "111111ABC";
+obj.name = "CMRCET";
+obj.college = "KODURI VAMSHI";
+obj.regno = "17H51A05E3";
 
 app.get("/data", (req, res) => res.json(obj))
 
